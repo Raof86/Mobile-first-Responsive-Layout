@@ -147,6 +147,10 @@ footer {
           max-width: 100%;
       }
 
+      .img {
+          max-width: 100%;
+      }
+
       .first-paragraph {
           text-align: left;
       }
