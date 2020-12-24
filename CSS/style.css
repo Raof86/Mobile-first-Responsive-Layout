@@ -140,6 +140,11 @@ footer {
         display:none;
     }
 
+    .footer-nav li {
+       margin-bottom:1000px;
+       margin-right: 200px;
+    }
+
     /* .footer-nav li {
         display: inline;
         background:none;
@@ -164,6 +169,7 @@ footer {
     .footer-nav {
         float: right;
     }
+
        .footer-nav li {
         display: inline;
       }
