@@ -138,17 +138,20 @@ footer {
 
     ul.footer-nav {
         display:none;
-    }
+    } 
 
     .footer-nav li {
        margin-bottom:1000px;
        margin-right: 200px;
     }
 
-    /* .footer-nav li {
+     .footer-nav li {
         display: inline;
         background:none;
-      } */
+      }
+
+
+  
 
 }
 @media only screen and (min-width: 768px) {
@@ -157,14 +160,16 @@ footer {
         display: none;
     }
 
+   
+
     li {
         display: inline;
         background:none;
     }
 
-    /* ul {
+    ul {
         margin-bottom: 100px;
-    } */
+    }
 
     .footer-nav {
         float: right;
