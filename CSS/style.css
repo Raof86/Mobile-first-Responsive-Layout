@@ -94,6 +94,7 @@ hr {
 
 footer {
     background: lightgrey;
+    padding-bottom: 50px;
 }
 
 .footer {
@@ -153,10 +154,6 @@ footer {
         display: inline;
         background:none;
       }
-
-
-  
-
 }
 @media only screen and (min-width: 768px) {
 
@@ -169,15 +166,21 @@ footer {
         background:none;
     }
 
+    .name {
+        position:absolute;
+        left: 10%;
+       }
+
     ul {
         margin-bottom: 100px;
     }
 
     .footer-nav {
-        /* float: right; */
         display: flex;
         margin: 0 -6% 0 0;
         padding: 0;
+        position:absolute;
+        right: 10%;
     }
 
        .footer-nav li {
