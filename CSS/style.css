@@ -6,10 +6,11 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.name {
+.name_2 {
     margin:0 0 0 -5%;
     padding: 0;
 }
+
 .contact {
      margin-top: 0;
      padding-top: 50px;
@@ -18,14 +19,6 @@ html, body {
 .header {
     background: lightgrey;
 }
-
-/* .name,
-.main-nav,
-.footer-nav {
-	text-align: center;
-	display: block;
-    padding: 10px 15px;    
-} */
 
 .main {
 	text-align: center;
@@ -117,7 +110,6 @@ footer {
 
 .footer-item1, 
 .footer-item2 {
-    /* margin-top: 5px; */
     font-weight: bold;
 }
 
@@ -166,9 +158,11 @@ footer {
         background:none;
     }
 
-    .name {
+    .name_2 {
         position:absolute;
         left: 10%;
+        color: black;
+        font-weight: bold;
        }
 
     ul {
@@ -302,6 +296,10 @@ footer {
 
 .para1 {
     margin-bottom: 0;
+}
+
+.container {
+    justify-content: center
 }
 
 }
