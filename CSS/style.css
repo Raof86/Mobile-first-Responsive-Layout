@@ -113,6 +113,9 @@ footer {
 
 #footer-item {
     text-transform: uppercase;
+    position:absolute;
+    right: 10%;
+    margin: auto;
 }
 
 .footer-nav li {
@@ -123,6 +126,13 @@ footer {
 
 .footer {
     display: flex;
+}
+
+.name_2 {
+    position:absolute;
+    left: 10%;
+    color: black;
+    font-weight: bold; 
 }
 
 @media only screen and (max-width: 768px) {
